@@ -1,0 +1,53 @@
+/* Write some CSS below */
+body {
+  font-family: Overpass;
+  color: #719FB0;
+  font-size: 18px;
+  margin:0;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+}
+
+a:hover {
+  color: #A0C1B8;
+}
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+ .button-blue {
+	background-color: #blue; 
+	color: blue;
+	padding: 20px 48px;
+	border border-radius: 6px;
+	display: inline-block;
+	text-decoration: none
+ }
+.card-white {
+  background: white;
+  box-shadow: 0 0 50px #37342B;
+  border-radius: 15px;
+  width: 200px;
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+}
+
+.container {
+width: 2
+margin: auto;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+ .footer {
+ 	color: grey
+ }
